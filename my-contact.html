@@ -2,26 +2,45 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Contact ME</title>
   </head>
+  <style type="text/css">
+    body{
+    background-color: #d6e0f0;
+    font-family: cursive;
+  }
+  </style>
   <body>
-    <h1>MY Contact info</h1>
-    <p>8570936103</p>
-    <p>piyush4for@gmai.com</p>
-    <p>Haryana,Dharuhera</p>
+    <h1>My Contacts</h1>
+    <ol>
+      <li>
+        <strong>My E-mail id:</strong> piyush4for@gmail.com
+      </li>
+      <li><strong>Address:</strong> Haryana,Dharuhera
+      </li>
+      <li><strong>P.no:</strong> 8570936103</li>
+    </ol>
+    <br>
     <form action="mailto:piyush4for@gmail.com" method="post" enctype="text/plain">
-
+   <fieldset>
+      <legend>Contact Me</legend>
       <label>Your name: </label>
-      <input type="text" name="myself" value=""><br>
+      <input type="text" name="myself" value="" placeholder="abc"><br>
       <label>Your email: </label>
-      <input type="email" name="from_email" value=""><br>
+      <input type="email" name="from_email" value="" placeholder="xyz@example.com" required><br>
       <label>Your message: </label><br>
       <textarea name="my message is" rows="8" cols="80"></textarea>
-      <input type="submit" name="">
+      <input type="submit" name=""> <br>
+      <label for="">Accept all the policy for submiting</label>
+      <input type="checkbox"><br>
       <input type="reset" name="" value="">
+    
+    </fieldset>
+  </form>  
 
-
-    </form>
+    
 
   </body>
 </html>
+
+
